@@ -2,11 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleFormSubmit = function (event) {
     event.preventDefault();
-    // console.log(`form has been submitted ${event.target.title.value}`);
-    // const resultParagraph = document.querySelector('#title')
-    // resultParagraph.
-    // const resultParagraph = document.querySelector('#title');
-    // resultParagraph.textContent = event.target.title.value;
 
     const newDiv = document.createElement('div');
     const readingListDiv = document.querySelector('#reading-list');
